@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+sed -i 's/libbase.so/libbase-v28.so/g' android.hardware.bluetooth@1.0-impl-qti.so
+
